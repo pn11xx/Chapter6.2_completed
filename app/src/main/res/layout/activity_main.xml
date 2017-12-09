@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pngo.chapter62.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/sumButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sum"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sumButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="138dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/xInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="x" />
+
+        <EditText
+            android:id="@+id/yInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/xInput"
+            android:layout_alignStart="@+id/xInput"
+            android:layout_below="@+id/xInput"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="y" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
